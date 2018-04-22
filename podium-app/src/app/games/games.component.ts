@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Game } from '../../model/Game'
 import { GamesService } from '../games.service'
+import { GameResponse } from '../../model/GameResponse';
 
 @Component({
   selector: 'app-games',
@@ -9,7 +10,7 @@ import { GamesService } from '../games.service'
 })
 export class GamesComponent implements OnInit {
 
-  games : Game[]
+  games : [Game]
 
   selectedGame: Game
 
@@ -26,6 +27,8 @@ export class GamesComponent implements OnInit {
   //Get the games from the GamesService
   getGames(): void {
     this.gamesService.getGames()
-      .subscribe(games => this.games = games);
+      .subscribe(gamesResponse => 
+        this.games = gamesResponse.result,
+      );
   }
 }

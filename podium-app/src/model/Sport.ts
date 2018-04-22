@@ -1,7 +1,7 @@
 import { Game } from "./Game";
 
 export class Sport {
-    id: number;
+    _id: number;
     name: String;
     image: String;
     description: String;
@@ -9,7 +9,7 @@ export class Sport {
     popularity: Number;
     // activeTournaments: [Tournament];
     // openTournaments: [Tournament];
-    activeGames: [Game];
-    openGames: [Game];
+    //activeGames: [Game];
+    //openGames: [Game];
     //ranking: [User];
 }
