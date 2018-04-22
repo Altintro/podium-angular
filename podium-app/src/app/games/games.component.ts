@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Game } from '../../model/Game'
+import { GAMES } from '../mock-games'
 import { GamesService } from '../games.service'
 import { GameResponse } from '../../model/GameResponse';
 
@@ -10,7 +11,7 @@ import { GameResponse } from '../../model/GameResponse';
 })
 export class GamesComponent implements OnInit {
 
-  games : [Game]
+  games : Game[]
 
   selectedGame: Game
 
@@ -26,6 +27,9 @@ export class GamesComponent implements OnInit {
 
   //Get the games from the GamesService
   getGames(): void {
+
+    //Test with lot of games
+    //this.games = GAMES
     this.gamesService.getGames()
       .subscribe(gamesResponse => 
         this.games = gamesResponse.result,
