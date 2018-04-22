@@ -1,3 +1,4 @@
+<div class="container">
 <h2>Featured Games</h2>
 <ul class="games">
   <li *ngFor= "let game of games"
@@ -8,3 +9,4 @@
 </ul>
 
 <app-game-detail [game]="selectedGame"></app-game-detail> <!-- sends the selected game as param to the game-detail component -->
+</div>

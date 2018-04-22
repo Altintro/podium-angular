@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { HttpClientModule } from '@angular/common/http'
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { AppComponent } from './app.component';
 import { GamesComponent } from './games/games.component';
@@ -24,7 +25,8 @@ import { AppRoutingModule } from './/app-routing.module';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ScrollToModule.forRoot()
   ],
   providers: [GamesService],
   bootstrap: [AppComponent]

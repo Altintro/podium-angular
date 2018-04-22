@@ -1,4 +1,8 @@
 /* GamesComponent's private CSS styles */
+.container {
+    margin-top: 200px;
+  }
+  
 .selected {
     background-color: #CFD8DC !important;
     color: white;

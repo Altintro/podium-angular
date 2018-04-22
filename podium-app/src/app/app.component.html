@@ -1,8 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="">PODIUM
-      </a>
+      <a class="navbar-brand js-scroll-trigger" href="">PODIUM</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -11,21 +10,20 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="games">Games</a>
+            <a class="nav-link js-scroll-trigger" href="#games" (click)="onSelect('games')">Games</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="download">Download</a>
+            <a class="nav-link js-scroll-trigger" href="#download" (click)="onSelect('download')">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="team">Team</a>
+            <a class="nav-link js-scroll-trigger" href="#team" (click)="onSelect('team')">Team</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <router-outlet></router-outlet>
-  <app-games></app-games>
-  <app-download></app-download>
-  <app-team></app-team>
+  <app-games id = "games"></app-games>
+  <app-download id ="download"></app-download>
+  <app-team id="team"></app-team>
 
 
