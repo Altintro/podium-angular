@@ -1,0 +1,21 @@
+<section class="bg-dark" id="games">
+<div class="container text-primary">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">Featured Games</h2>
+    </div>
+  </div>
+  <div class="row">
+      <ul class="games">
+          <li *ngFor= "let game of games"
+            [class.selected] = "game === selectedGame"
+            (click)="onSelect(game)">
+            <div class="sport">{{game.sport.name}}</div>
+            <div class="game-name">{{game.name}}</div>
+          </li>
+        </ul>
+  </div>
+  </div>
+</section>
+
+<!-- <app-game-detail [game]="selectedGame"></app-game-detail> sends the selected game as param to the game-detail component -->

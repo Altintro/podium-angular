@@ -1,0 +1,57 @@
+/* GamesComponent's private CSS styles */
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+  }
+  .games {
+    text-align: center;
+    margin: 2em;
+    list-style-type: none;
+    padding: 0;
+    width: 300em;
+    height: 30em;
+    float: left;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .games li {
+    display: inline-block;
+    cursor: pointer;
+    background-color: lightcoral;
+    margin: 1em;
+    padding: .3em;
+    height: 20em;
+    width: 20em;
+    border-radius: 4px;
+  }
+
+  .game-name {
+    text-align: left;
+    margin-left: .5em;
+    font-size: 2em;
+    line-height: 1.5em;
+    white-space: pre-wrap;
+    color: white;
+  }
+
+  .sport {
+    text-align: center;
+    margin: 0.5em;
+    padding-top: .2em;
+    width: 5em;
+    height: 2em;
+    background-color: #50E2C3;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+  }
+
+  .games li.selected:hover {
+    background-color: gray !important;
+    color: white;
+  }
+  .games li:hover {
+    color: #607D8B;
+    background-color: #fdcc52;
+    left: .1em;
+  }
