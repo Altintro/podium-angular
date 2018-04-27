@@ -1,0 +1,203 @@
+/*!
+ * Start Bootstrap - New Age v4.0.0-beta (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+ */
+ html,
+ body {
+   width: 100%;
+   height: 100%; }
+ 
+ body {
+   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+ 
+ a {
+   color: #50E2C3;
+   -webkit-transition: all .35s;
+   -moz-transition: all .35s;
+   transition: all .35s; }
+   a:hover, a:focus {
+     color: #50E2C3; }
+ 
+ hr {
+   max-width: 100px;
+   margin: 25px auto 0;
+   border-width: 1px;
+   border-color: white; }
+ 
+ hr.light {
+   border-color: white; }
+ 
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+     font-weight: 300;
+     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';}
+ 
+ p {
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 20px; }
+ 
+ section {
+   padding: 100px 0; }
+   section h2 {
+     font-size: 50px; }
+ 
+     section {
+       padding: 100px 0; }
+       section h2.section-heading {
+         color: white;
+         font-size: 40px;
+         margin-top: 0;
+         margin-bottom: 25px; 
+         font-weight: 700;
+         font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+         text-transform: uppercase}
+       section h3.section-subheading {
+         font-size: 20px;
+         font-weight: 400;
+         font-style: italic;
+         margin-bottom: 75px;
+         text-transform: none;
+         font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';}
+         section h3.section-subheading.contact {
+           color: white !important;
+         }
+ 
+ #mainNav {
+   border-color: rgba(34, 34, 34, 0.05);
+   background-color: white;
+   -webkit-transition: all .35s;
+   -moz-transition: all .35s;
+   transition: all .35s;
+   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+   font-weight: 200;
+   letter-spacing: 1px; }
+   #mainNav .navbar-brand {
+     color: white;
+     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+     font-weight: 200;
+     letter-spacing: 1px; }
+     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+       color: #50E2C3; }
+   #mainNav .navbar-toggler {
+     font-size: 12px;
+     padding: 8px 10px;
+     color: #222222; }
+   #mainNav .navbar-nav > li > a {
+     font-size: 11px;
+     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+     letter-spacing: 2px;
+     text-transform: uppercase; }
+     #mainNav .navbar-nav > li > a.active {
+       color: #50E2C3 !important;
+       background-color: transparent; }
+       #mainNav .navbar-nav > li > a.active:hover {
+         background-color: transparent; }
+   #mainNav .navbar-nav > li > a,
+   #mainNav .navbar-nav > li > a:focus {
+     color: #222222; }
+     #mainNav .navbar-nav > li > a:hover,
+     #mainNav .navbar-nav > li > a:focus:hover {
+       color: #50E2C3; }
+   @media (min-width: 992px) {
+     #mainNav {
+       border-color: transparent;
+       background-color: transparent; }
+       #mainNav .navbar-brand {
+         color: fade(white, 90%); }
+         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+           color: white; }
+       #mainNav .navbar-nav > li > a,
+       #mainNav .navbar-nav > li > a:focus {
+         color: rgba(255, 255, 255, 0.7); }
+         #mainNav .navbar-nav > li > a:hover,
+         #mainNav .navbar-nav > li > a:focus:hover {
+           color: white; }
+       #mainNav.navbar-shrink {
+         border-color: rgba(34, 34, 34, 0.1);
+         background-color: white; }
+         #mainNav.navbar-shrink .navbar-brand {
+           color: #222222; }
+           #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+             color: #50E2C3; }
+         #mainNav.navbar-shrink .navbar-nav > li > a,
+         #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+           color: #222222; }
+           #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+             color: #50E2C3; } }¡
+ 
+ .text-primary {
+   color: white; }
+ 
+ .no-gutter > [class*='col-'] {
+   padding-right: 0;
+   padding-left: 0; }
+ 
+ .btn-outline {
+   color: white;
+   border: 1px solid;
+   border-color: white; }
+   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+     color: white;
+     border-color: #50E2C3;
+     background-color: #50E2C3; }
+ 
+ .btn {
+   border-radius: 300px;
+   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+   letter-spacing: 2px;
+   text-transform: uppercase; }
+ 
+ .btn-xl {
+   font-size: 11px;
+   padding: 15px 45px; }
+ 
+   /* Send button contact */
+   .btn-xxl {
+     font-size: 18px;
+     font-weight: 700;
+     padding: 20px 40px;
+     border-radius: 3px;
+     color: white;
+     border-color: #32C8A7;
+     background-color: #32C8A7;
+     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     text-transform: uppercase; }
+     .btn-xxl.focus, .btn-xl:focus {
+       color: white;
+       border-color: #50E2C3;
+       background-color: #32C8A7; }
+     .btn-xxl:hover {
+       color: white;
+       border-color: #50E2C3;
+       background-color: #50E2C3; }
+     .btn-xxl.active, .btn-xxl:active,
+     .open > .btn-xxl.dropdown-toggle {
+       color: white;
+       border-color: #32C8A7;
+       background-color: #32C8A7; }
+       .btn-xxl.active.focus, .btn-xxl.active:focus, .btn-xxl.active:hover, .btn-xxl:active.focus, .btn-xxl:active:focus, .btn-xxl:active:hover,
+       .open > .btn-xxl.dropdown-toggle.focus,
+       .open > .btn-xxl.dropdown-toggle:focus,
+       .open > .btn-xxl.dropdown-toggle:hover {
+         color: white;
+         border-color: #32C8A7;
+         background-color: #32C8A7; }
+     .btn-xxl.active, .btn-xl:active,
+     .open > .btn-xxl.dropdown-toggle {
+       background-image: none; }
+     .btn-xxl.disabled.focus, .btn-xxl.disabled:focus, .btn-xxl.disabled:hover, .btn-xxl[disabled].focus, .btn-xxl[disabled]:focus, .btn-xxl[disabled]:hover,
+     fieldset[disabled] .btn-xxl.focus,
+     fieldset[disabled] .btn-xxl:focus,
+     fieldset[disabled] .btn-xxl:hover {
+       border-color: #50E2C3;
+       background-color: #50E2C3; }
+     .btn-xxl .badge {
+       color: #fdc43d;
+       background-color: white; }
